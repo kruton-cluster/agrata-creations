@@ -1,11 +1,12 @@
 @font-face {
-  font-family: 'EngraversGothic BT';
+  font-family: EngraversGothic BT;
   src: url('tt0586m_.ttf');
 }
 *{
     margin:  0;
     padding: 0;
    font-family: EngraversGothic BT;
+   src: url('tt0586m_.ttf');
 }
 ul{
   list-style-type: none;
