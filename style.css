@@ -3,10 +3,6 @@
     padding: 0;
    font-family: EngraversGothic BT;
 }
-@font-face {
-  font-family: 'EngraversGothic BT';
-  src: url('tt0586m_.ttf');
-}
 ul{
   list-style-type: none;
   margin: 0;
@@ -250,4 +246,51 @@ hr {
   margin: 90px;
   margin-left: 300px;
   padding-right: 30px;
+}
+#reviews{
+  font-size: 30px;
+}
+.slider {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  width: 2000px;
+  animation: slide 10s infinite;
+}
+
+.slides img {
+  width: 500px;
+  height: 300px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-500px);
+  }
+  55% {
+    transform: translateX(-500px);
+  }
+  60% {
+    transform: translateX(-1000px);
+  }
+  85% {
+    transform: translateX(-1000px);
+  }
+  90% {
+    transform: translateX(-1500px);
+  }
+  100% {
+    transform: translateX(-1500px);
+  }
 }
